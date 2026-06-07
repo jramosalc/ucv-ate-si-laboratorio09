@@ -4,7 +4,7 @@ from travel_assistant.tools.culture_tools import get_local_culture_info
 
 local_culture_agent = Agent(
     name="local_culture_agent",
-    model="gemini-2.0-flash",
+    model="gemini-2.0-flash-lite",
     description="Recommends local gastronomy, customs and useful phrases for travelers.",
     instruction="""
 You are a local culture advisor for travelers.
